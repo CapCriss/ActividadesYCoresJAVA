@@ -23,7 +23,7 @@
 		<form:errors path="correo" />
 		
 		<form:label path="password">Contraseña:</form:label>
-		<form:input path="password" type="text" requiered="true"/>
+		<form:input path="password" type="password" requiered="true"/>
 		<form:errors path="password" />
 		
 		<input class="button" type="submit" value="Iniciar Sesión" />

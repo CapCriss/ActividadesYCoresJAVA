@@ -31,11 +31,11 @@
 		<form:errors path="correo" />
 		
 		<form:label path="password">Contraseña:</form:label>
-		<form:input path="password" type="text" />
+		<form:input path="password" type="password" />
 		<form:errors path="password" />
 		
 		<form:label path="confirmarPassword">Confirmar Contraseña:</form:label>
-		<form:input path="confirmarPassword" type="text" />
+		<form:input path="confirmarPassword" type="password" />
 		<form:errors path="confirmarPassword" />
 		
 		<input class="button" type="submit" value="Registrase" />
